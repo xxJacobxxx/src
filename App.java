@@ -11,7 +11,7 @@ public class App {
         int mängd = förnamn.length();
         String eftenamn = hela_skiten.substring(mängd,space);
         space = hela_skiten.indexOf(" ",space+1);
-        mängd = efternamn.length();
+        mängd = eftenamn.length();
         String längd = hela_skiten.substring(mängd,space);
         space = hela_skiten.indexOf(" ",space+1);
         mängd = längd.length();
